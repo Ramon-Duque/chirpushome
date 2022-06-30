@@ -10,7 +10,8 @@ ul {
 }
 
 li {
-  list-style: none;  
+  list-style: none;
+  padding: 5px;  
 }
 
 a {
@@ -64,11 +65,73 @@ footer {
   background-color: rgba(247, 193, 162, 0.7);
   width: 100%;
   
+}
+
+@media screen and (min-width:768px) {
+  
+
+.container-1 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
   
   
 }
 
+#navlinks {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
 
+}
+
+#main {
+  max-width: 50%;
+  
+}
+
+#pinkdot {
+  border-radius: 50%;
+  background-color: rgba(247, 136, 167, 0.6);
+  height: 200px;
+  width: 200px;
+  float: right;
+  margin-right: 100px;
+  margin-top: -200px;
+  
+ 
+ 
+ 
+  
+}
+
+#purpledot {
+  border-radius: 50%;
+  background-color: rgba(247, 193, 162, 0.7);
+  height: 150px;
+  width: 150px;
+  float: right;
+  margin-left: 200px;
+  margin-right: -10;
+  margin-top: -100px;
+  
+ 
+
+}
+
+#orangedot {
+  border-radius: 50%;
+  background-color: rgba(207, 130, 213, 0.6);
+  height: 100px;
+  width: 100px;
+  float: right;
+  margin-right: -300px;
+  margin-top: -190px;
+  
+}
+
+}
 
 
 
